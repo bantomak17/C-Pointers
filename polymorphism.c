@@ -92,8 +92,8 @@ int main()
 		printf("%d\n", shapes[i]->functions.getX(shapes[i]));
 	}
 
-		printf("%d\n", ((Rectangle*)shapes[1])->width);
-		printf("%d\n", ((Rectangle*)shapes[1])->height);
-
+	printf("%d\n", ((Rectangle*)shapes[1])->width);
+	printf("%d\n", ((Rectangle*)shapes[1])->height);
+	
 	return 0;
 }
